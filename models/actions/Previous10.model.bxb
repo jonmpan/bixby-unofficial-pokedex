@@ -1,0 +1,11 @@
+action (Previous10) {
+  type(Search)
+  description (__DESCRIPTION__)
+  collect {
+    input (pokemonResults) {
+      type (PokemonResults)
+      min (Optional)
+    }
+  }
+  output (PokemonResults)
+}

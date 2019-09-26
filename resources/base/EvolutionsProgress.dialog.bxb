@@ -1,0 +1,6 @@
+dialog (Progress) {
+	match: PokemonEvolutions
+	choose (Random){
+		template("Finding some evolutions...")
+	}
+}

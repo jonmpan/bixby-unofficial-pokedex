@@ -1,0 +1,11 @@
+action (WhichPokemon) {
+  type (Search)
+  description (Demonstrate a simple pokemon GET with the http library.)
+  collect {
+    input (pokemonName) {
+      type (PokemonSpeciesTest)
+      min (Required) max (One)
+    }
+  }
+  output (Pokemon)
+}

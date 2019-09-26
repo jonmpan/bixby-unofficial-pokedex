@@ -1,0 +1,64 @@
+// layout-macro-def(pokemon-evolution-macro) {
+//   params {
+//     param (evolution) {
+//       type (Evolution)
+//       min (Required)
+//       max (One)
+//     }
+//   }
+
+//   content {
+//     section{
+//       content{
+//         single-line{
+//           image{
+//             background-color (Transparent)
+//             url("[#{value(evolution.nameSprite)}]")
+//             style(Title_XXL)
+//           }
+//           text{
+//             value("To")
+//             style(Detail_L)
+//           }
+//           image{
+//             background-color (Transparent)
+//             url("[#{value(evolution.nameSprite)}]")
+//             style(Title_XXL)
+//           }
+//         }
+//         // image-card {
+//         //   aspect-ratio (3:4)
+//         //   title-area {
+//         //     halign (Center)
+//         //     slot1 {
+//         //       text {
+//         //         value ("#{title(evolution.name)}")
+//         //         style (Detail_L)
+//         //       }
+//         //     }
+//         //   }
+//         //   image-url ("[#{value(evolution.nameSprite)}]")
+//         // }
+//         // image-card {
+//         //   aspect-ratio (3:4)
+//         //   title-area {
+//         //     halign (Center)
+//         //     slot1 {
+//         //       text {
+//         //         value ("#{title(evolution.evolvesTo)}")
+//         //         style (Detail_L)
+//         //       }
+//         //     }
+//         //   }
+//         //   image-url ("[#{value(evolution.evolvesToSprite)}]")
+//         // }
+//         single-line{
+//           text{
+//             value("[#{value(evolution.text)}]")
+//           }
+//         }
+//       }
+//     }
+
+//   }
+// }

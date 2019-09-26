@@ -1,0 +1,10 @@
+train (t-qlz2dx6txl10gqnvatt0s6s1b) {
+  utterance ("[g:WhichPokemon] (daniel radcliffe)[v:PokemonSpeciesTest] looks like which pokemon?")
+  plan (Y2BmEM/Kz8stSMzTK8jPTk1JrdALANK5+XkMMugS4RmZyRkwWSUc2oILUpMzU4tDUotLGJgYGIGYAUgyMoAAlA8A)
+  last-modified (1566336174281)
+}
+train (t-qp48t5hbdx85yhl3n3mw0bca6) {
+  utterance ("[g:WhichPokemon] (Bill Nye The Science Guy)[v:PokemonSpeciesTest] looks like what pokemon?")
+  plan (Y2BmEM/Kz8stSMzTK8jPTk1JrdALANK5+XkMMugS4RmZyRkwWSUc2oILUpMzU4tDUotLGJgYGIGYAUgyMoAAlA8A)
+  last-modified (1566336132552)
+}

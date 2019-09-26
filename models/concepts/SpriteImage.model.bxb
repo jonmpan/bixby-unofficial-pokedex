@@ -1,0 +1,3 @@
+structure (SpriteImage) {
+  extends (viv.core.BaseImage)
+}

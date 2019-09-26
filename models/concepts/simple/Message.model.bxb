@@ -1,0 +1,3 @@
+integer (Message) {
+  description (__DESCRIPTION__)
+}

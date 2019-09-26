@@ -1,0 +1,15 @@
+result-view {
+	match {
+		Tutorial (this)
+	}
+	
+	render {
+		if(size(this)==1){
+			layout-macro (tutorial-macro){
+				param (this){
+					expression (this)
+				}
+			}
+		}
+	}
+}

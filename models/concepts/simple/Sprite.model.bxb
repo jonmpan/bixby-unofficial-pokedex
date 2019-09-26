@@ -1,0 +1,3 @@
+text (Sprite) {
+  extends (viv.core.Url)
+}

@@ -1,0 +1,69 @@
+dialog (Result) {
+  match: PokemonResults (this) {
+    from-output: FetchStatsAction (action)
+    min (Required) max (One)
+    }
+  if (this.sortBy == 'popularity') {
+    if (this.sort == 'highest'){
+      template("Here are some Pokemon who are well loved.")
+    } else {
+      template("It feels good to show you some Pokemon even less popular than I am...")
+    }
+  } else-if (this.sortBy == 'hp'){
+    if (this.sort == 'highest'){
+      template("Here are some super beefy Pokemon.") // revisit this
+    } else {
+      template("Here are some Pokemon that would faint to a light breeze.")
+    }
+  } else-if (this.sortBy == 'attack'){
+    if (this.sort == 'highest'){
+      template("Here are some Pokemon that hurt. A lot. Believe me.")
+    } else {
+      template("Here are some Pokemon that hit like wet noodles.")
+    }
+  } else-if (this.sortBy == 'defense'){
+    if (this.sort == 'highest'){
+      template("Here are some Pokemon who don't mind getting mega punched.") // needs work
+    } else {
+      template("I feel bad for these Pokemon if they get hit by tackle.")
+    }
+  } else-if (this.sortBy == 'specialattack'){
+    if (this.sort == 'highest'){
+      template("Here are some Pokemon good at messing you up with big brain, or something.") // notPC?
+    } else {
+      template("Here are some Pokemon who has less brains than a Dunsparce.")
+    }
+  } else-if (this.sortBy == 'specialdefense'){
+    if (this.sort == 'highest'){
+      template("Here are some Pokemon who resist smartness.")
+    } else {
+      template("Here are some Pokemon who are scared of big brains.")
+    }
+  } else-if (this.sortBy == 'speed'){
+    if (this.sort == 'highest'){
+      template("Here are some super fast Pokemon. Whoa! Where did they go?!")
+    } else {
+      template("Me. show. you. some. Pokemon. who. are. a. little. sloooooooow...")
+    }
+  } else-if (this.sortBy == 'total'){
+    if (this.sort == 'highest'){
+      template("Here is \"GOD\", and some others that can destroy EVERYTHING!")
+    } else {
+      template("It feels bad for these Pokemon to even exist...")
+    }
+  } else-if (this.sortBy == 'height'){
+    if (this.sort == 'highest'){
+      template("Here are some Pokemon that will never find pants that fit them.")
+    } else {
+      template("Here are some that Pokemon that believe size doesn't matter. Period.")
+    }
+  } else-if (this.sortBy == 'weight'){
+    if (this.sort == 'highest'){
+      template("Here are some Pokemon with their own orbiting celestial bodies.")
+    } else {
+      template("Here are some Pokemon who get whisked away by the slightest breeze.") // weaker
+    }
+  } else {
+    template("Here are some Pokemon based on your preferences")
+  }
+}

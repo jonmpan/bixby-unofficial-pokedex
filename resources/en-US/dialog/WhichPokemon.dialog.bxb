@@ -1,0 +1,39 @@
+dialog (Result) {
+	match: Pokemon (this) {
+		from-output: WhichPokemon (action)
+	}
+	if (this.message == 1){
+		template("Wait, is that #{title(this.searchedFor)} or is that #{title(this.name)}?"){
+			speech("Wait, is that #{title(this.searchedFor)} or is that #{title(this.name)}? [#{value(this.pokedexEntry)}]")
+		}
+	} else-if(this.message == 2) {
+		template("#{title(this.searchedFor)} looks stunningly like #{title(this.name)}."){
+      speech("#{title(this.searchedFor)} looks stunningly like #{title(this.name)}. [#{value(this.pokedexEntry)}]")
+    }
+	} else-if(this.message == 3) {
+		template("Is #{title(this.name)} actually #{title(this.searchedFor)} in disguise?"){
+      speech("Is #{title(this.name)} actually #{title(this.searchedFor)} in disguise? [#{value(this.pokedexEntry)}]")
+    }
+	} else-if(this.message == 4) {
+		template("Are #{title(this.searchedFor)} and #{title(this.name)} identical twins?"){
+      speech("Are #{title(this.searchedFor)} and #{title(this.name)} identical twins? [#{value(this.pokedexEntry)}]")
+    }
+	} else-if(this.message == 5) {
+		template("The resemblance between #{title(this.searchedFor)} and #{title(this.name)} is eerily uncanny."){
+      speech("The resemblance between #{title(this.searchedFor)} and #{title(this.name)} is eerily uncanny. [#{value(this.pokedexEntry)}]")
+    }
+	} else-if(this.message == 6) {
+		template("Do I need glasses? Or do #{title(this.searchedFor)} and #{title(this.name)} look indistinguishable from each other?"){
+      speech("Do I need glasses? Or do #{title(this.searchedFor)} and #{title(this.name)} look indistinguishable from each other? [#{value(this.pokedexEntry)}]")
+    }
+	} else-if(this.message == 7) {
+		template("Did a wild Ditto appear? Oh wait, that's just #{title(this.searchedFor)} and #{title(this.name)}."){
+      speech("Did a wild Ditto appear? Oh wait, that's just #{title(this.searchedFor)} and #{title(this.name)}. [#{value(this.pokedexEntry)}]")
+    }
+	} else {
+		template("#{title(action.pokemonName)}"){
+			speech("#{title(action.pokemonName)}. [#{value(this.pokedexEntry)}]")
+		}
+	}
+}
+

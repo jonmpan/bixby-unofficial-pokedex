@@ -1,0 +1,29 @@
+result-view {
+	match {
+		PokemonEvolutions (this)
+	}
+	
+	render {
+		// if ("size(this) > 0") {
+		//   list-of (this) {
+		//     where-each (this) {
+		if(size(this)==1){
+			layout-macro (pokemon-evolutions-macro) {
+				param (this) {
+					expression (this)
+				}
+			}
+		}
+		
+		//     }
+		//   }
+		// } else {
+		//   layout-macro (pokemon-evolutions-macro) {
+		//     param (this) {
+		//       expression (this)
+		//     }
+		//   }
+		// }
+		
+	}
+}

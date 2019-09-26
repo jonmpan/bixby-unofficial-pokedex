@@ -1,0 +1,27 @@
+structure (Tutorial) {
+  description (__DESCRIPTION__)
+  property (tutorial1) {
+    type (Tutorial1)
+    min (Required) max (One)
+  }
+  property (tutorial2) {
+    type (Tutorial2)
+    min (Required) max (One)
+  }
+  property (tutorial3) {
+    type (Tutorial3)
+    min (Required) max (One)
+  }
+  property (tutorial4) {
+    type (Tutorial4)
+    min (Required) max (One)
+  }
+  property (tutorial4Line2) {
+    type (Tutorial4Line2)
+    min (Optional) max (One)
+  }
+  property (tutorial5) {
+    type (Tutorial5)
+    min (Required) max (One)
+  }
+}

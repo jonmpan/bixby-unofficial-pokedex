@@ -1,0 +1,5 @@
+action (GetSearchPrefs) {
+  type (Search)
+  description (__DESCRIPTION__)
+  output (SearchPrefs)
+}

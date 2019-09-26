@@ -1,0 +1,92 @@
+layout-macro-def(type-chart-macro) {
+  params {
+    param (this) {
+      type (TypeChart)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    section{
+      content{
+        paragraph{
+          value{
+            template ("Resistances")
+          }
+          style (Title_S)
+        }
+        divider
+        partitioned {
+          content {
+            for-each (this.resistances) {
+              as (resistance) {
+                single-line {
+                  image {
+                    url("#{title(resistance.multiplier)}")
+                  }
+                  spacer
+                  image {
+                    url("#{title(resistance.type)}")
+                  }
+                }
+              }
+            }
+          }
+        }
+        divider
+        paragraph{
+          value{
+            template ("Neutral")
+          }
+          style (Title_S)
+        }
+        divider
+        partitioned {
+          content {
+            for-each (this.neutral) {
+              as (neutral) {
+                single-line {
+                  image {
+                    url("#{title(neutral.multiplier)}")
+                  }
+                  spacer
+                  image {
+                    url("#{title(neutral.type)}")
+                  }
+                }
+              }
+            }
+          }
+        }
+        divider
+        paragraph{
+          value{
+            template ("Weaknesses")
+          }
+          style (Title_S)
+        }
+        divider
+        partitioned {
+          content {
+            for-each (this.weaknesses) {
+              as (weakness) {
+                single-line {
+
+                  image {
+                    url("#{title(weakness.multiplier)}")
+                  }
+                  spacer
+                  image {
+                    url("#{title(weakness.type)}")
+                  }
+                }
+              }
+            }
+          }
+        }
+        divider
+      }
+    }
+  }
+}

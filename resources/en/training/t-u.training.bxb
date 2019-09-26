@@ -1,0 +1,15 @@
+train (t-uczzcct2s9fi0dlokokecelnw) {
+  utterance ("[g:WhichPokemon] which pokemon does (Neil Patrick Harris)[v:PokemonSpeciesTest] resemble?")
+  plan (Y2BmEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQQhUOz8hMzoDJKWDVElyQmpyZWhySWlzCwMTACMQMQJKRAQSgfAA=)
+  last-modified (1552980032764)
+}
+train (t-ur2cp6oumx1g4943nmaxeqi9l) {
+  utterance ("[g:FetchStatsAction] (lowest)[v:SearchPrefs:lowest] (special attack)[v:Stats:special-attack]")
+  plan (Y2BhkEnKrEiqTEmt0MsoKSnQC8jPTs3NzwtKLS7NKSlmkEOVdUstSc4ILkksKXZMLsnMz2OQRJUPTk0sSs4IKEpNK2YQRpMC6WJgZmBkYAKSDEAaBCEALgoA)
+  last-modified (1553054646370)
+}
+train (t-uwfdh8orulfrz8es4f9fvsk8i) {
+  utterance ("[g:WhichPokemon] which pokemon is (Jonathan Pan)[v:PokemonSpeciesTest]")
+  plan (Y2BmEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQQhUOz8hMzoDJKWDVElyQmpyZWhySWlzCwMTACMQMQJKRAQSgfAA=)
+  last-modified (1552973171138)
+}

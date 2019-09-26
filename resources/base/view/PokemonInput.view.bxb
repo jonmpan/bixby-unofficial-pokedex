@@ -1,0 +1,5 @@
+input-view{
+  match:Pokemon(pokemon)
+
+  message("Ask me to show you a Pokemon before asking for evolutions or type charts.")
+}

@@ -1,0 +1,479 @@
+layout-macro-def(pokemon-details-macro) {
+	params {
+		param (pokemon) {
+			type (Pokemon)
+			min (Required)
+			max (One)
+		}
+	}
+	
+	content {
+		section {
+			content {
+				
+				
+				// image-carousel {
+				// 	object-fit (Contain)
+				// 	images (pokemon.sprites)
+				// 	image-background-color (Transparent)
+				// }
+				
+				image {
+					aspect-ratio (16:9)
+					background-color (Transparent)
+					object-fit (Contain)
+					object-position (Center)
+					url ("[#{value(pokemon.sprite)}]")
+					lightbox-enabled (false)
+				}
+				
+				// spacer
+				// single-line{text{value(" ")}spacer}
+				// single-line{text{value(" ")}spacer}
+				// spacer
+				// hbox{
+				// 	content{
+				// 		vbox{
+				// 			halign (Center)
+				// 			valign (Middle)
+				// 			grow (5)
+				// 			content{
+				// 				single-line{
+				// 					image{
+				// 						style(Title_XXL)
+				// 						background-color (Transparent)
+				// 						url ("[#{value(pokemon.sprite)}]")
+				// 					}
+				// 				}
+				// 			}
+				// 		}
+				// 	}
+				// }
+				// spacer
+				// single-line{text{value(" ")}spacer}
+				// single-line{text{value(" ")}spacer}
+				// spacer
+				hbox {
+					content {
+						vbox {
+							content {
+								single-line {
+									text {
+										value ("#{upper(pokemon.name)}")
+										style (Title_M)
+									}
+								}
+							}
+						}
+						vbox {
+							content {
+								single-line {
+									text {
+										value ("[##{value(pokemon.pokedexNumber)}]")
+										style (Title_M)
+									}
+								}
+							}
+						}
+					}
+				}
+				hbox {
+					content {
+						vbox {
+							content {
+								single-line {
+									text {
+										value ("[Height: #{value(pokemon.height)}m]")
+										style (Detail_M_Soft)
+									}
+								}
+							}
+						}
+						vbox {
+							content {
+								single-line {
+									text {
+										value ("[Weight: #{value(pokemon.weight)}kg]")
+										style (Detail_M_Soft)
+									}
+								}
+							}
+						}
+					}
+				}
+				divider
+				single-line{
+					if(exists(pokemon.type2)){
+						text{
+							value("Types:")
+							style(Detail_M_Soft)
+						}
+						
+					} else {
+						text{
+							value("Type:")
+							style(Detail_M_Soft)
+						}
+					}
+				}
+				hbox {
+					content {
+						vbox {
+							content {
+								single-line {
+									text {
+										value ("#{upper(pokemon.type1)}")
+										style (Detail_L)
+									}
+								}
+							}
+						}
+						vbox {
+							content {
+								single-line {
+									text {
+										value ("#{upper(pokemon.type2)}")
+										style (Detail_L)
+									}
+								}
+							}
+						}
+					}
+				}
+				divider
+				single-line{
+					text{
+						value("Pokédex Entry:")
+						style(Detail_M_Soft)
+					}
+				}
+				paragraph {
+					value {
+						template ("[#{value(pokemon.pokedexEntry)}]")
+					}
+					style(Detail_L)
+				}
+				divider
+				divider
+				spacer
+				hbox {
+					content {
+						vbox {
+							grow (1)
+							halign (Start)
+							content {
+								single-line {
+									text {
+										value ("HP")
+										style (Detail_M_Soft)
+									}
+								}
+								single-line {
+									text {
+										value ("[#{value(pokemon.statHp)}]")
+										style (Detail_L)
+									}
+								}
+							}
+						}
+						vbox {
+							grow (1)
+							halign (Start)
+							content {
+								single-line {
+									text {
+										value ("Attack")
+										style (Detail_M_Soft)
+									}
+								}
+								single-line {
+									text {
+										value ("[#{value(pokemon.statAttack)}]")
+										style (Detail_L)
+									}
+								}
+							}
+						}
+					}
+				}
+				spacer
+				hbox {
+					content {
+						vbox {
+							grow (1)
+							halign (Start)
+							content {
+								single-line {
+									text {
+										value ("Defense")
+										style (Detail_M_Soft)
+									}
+								}
+								single-line {
+									text {
+										value ("[#{value(pokemon.statDefense)}]")
+										style (Detail_L)
+									}
+								}
+							}
+						}
+						vbox {
+							grow (1)
+							halign (Start)
+							content {
+								single-line {
+									text {
+										value ("Special Attack")
+										style (Detail_M_Soft)
+									}
+								}
+								single-line {
+									text {
+										value ("[#{value(pokemon.statSpecialAttack)}]")
+										style (Detail_L)
+									}
+								}
+							}
+						}
+					}
+				}
+				spacer
+				hbox {
+					content {
+						vbox {
+							grow (1)
+							halign (Start)
+							content {
+								single-line {
+									text {
+										value ("Special Defense")
+										style (Detail_M_Soft)
+									}
+								}
+								single-line {
+									text {
+										value ("[#{value(pokemon.statSpecialDefense)}]")
+										style (Detail_L)
+									}
+								}
+							}
+						}
+						vbox {
+							grow (1)
+							halign (Start)
+							content {
+								single-line {
+									text {
+										value ("Speed")
+										style (Detail_M_Soft)
+									}
+								}
+								single-line {
+									text {
+										value ("[#{value(pokemon.statSpeed)}]")
+										style (Detail_L)
+									}
+								}
+							}
+						}
+					}
+				}
+				spacer
+				
+				// split-input-cell {
+				// 	left {
+				// 		input-cell {
+				// 			label {
+				// 				template ("HP")
+				// 			}
+				// 			value {
+				// 				template ("[#{value(pokemon.statHp)}]")
+				// 			}
+				// 		}
+				// 	}
+				// 	right {
+				// 		input-cell {
+				// 			label {
+				// 				template ("Attack")
+				// 			}
+				// 			value {
+				// 				template ("[#{value(pokemon.statAttack)}]")
+				// 			}
+				// 		}
+				// 	}
+				// }
+				// split-input-cell {
+				// 	left {
+				// 		input-cell {
+				// 			label {
+				// 				template ("Defense")
+				// 			}
+				// 			value {
+				// 				template ("[#{value(pokemon.statDefense)}]")
+				// 			}
+				// 		}
+				// 	}
+				// 	right {
+				// 		input-cell {
+				// 			label {
+				// 				template ("Special Attack")
+				// 			}
+				// 			value {
+				// 				template ("[#{value(pokemon.statSpecialAttack)}]")
+				// 			}
+				// 		}
+				// 	}
+				// }
+				// split-input-cell {
+				// 	left {
+				// 		input-cell {
+				// 			label {
+				// 				template ("Special Defense")
+				// 			}
+				// 			value {
+				// 				template ("[#{value(pokemon.statSpecialDefense)}]")
+				// 			}
+				// 		}
+				// 	}
+				// 	right {
+				// 		input-cell {
+				// 			label {
+				// 				template ("Speed")
+				// 			}
+				// 			value {
+				// 				template ("[#{value(pokemon.statSpeed)}]")
+				// 			}
+				// 		}
+				// 	}
+				// }
+				
+				divider
+				paragraph{
+					value ("ABILITY: #{upper(pokemon.ability1)}")
+					style (Detail_L)
+				}
+				paragraph{
+					value ("[#{value(pokemon.ability1Description)}]")
+					style (Detail_L_Soft)
+				}
+				divider
+				paragraph{
+					value ("[ABILITY: #{upper(pokemon.ability2)}]")
+					style (Detail_L)
+				}
+				paragraph{
+					value ("[#{value(pokemon.ability2Description)}]")
+					style (Detail_L_Soft)
+				}
+				divider
+				paragraph{
+					value ("[ABILITY: #{upper(pokemon.ability3)}]")
+					style (Detail_L)
+				}
+				paragraph{
+					value ("[#{value(pokemon.ability3Description)}]")
+					style (Detail_L_Soft)
+				}
+				
+				// divider
+				
+				// compound-card {
+				// 	content {
+				// 		single-line {
+				// 			text {
+				// 				value {
+				// 					template ("ABILITY: #{upper(pokemon.ability1)}")
+				// 				}
+				// 				style (Detail_L)
+				// 			}
+				// 		}
+				// 		paragraph {
+				// 			value {
+				// 				template ("[#{value(pokemon.ability1Description)}]")
+				// 			}
+				// 			style (Detail_L_Soft)
+				// 		}
+				// 	}
+				// }
+				
+				// if(exists(pokemon.ability2)){
+				// 	compound-card {
+				// 		content {
+				// 			single-line {
+				// 				text {
+				// 					value {
+				// 						template ("ABILITY: #{upper(pokemon.ability2)}")
+				// 					}
+				// 					style (Detail_L)
+				// 				}
+				// 			}
+				// 			paragraph {
+				// 				value {
+				// 					template ("[#{value(pokemon.ability2Description)}]")
+				// 				}
+				// 				style (Detail_L_Soft)
+				// 			}
+				// 		}
+				// 	}
+				// }
+				
+				// if(exists(pokemon.ability3)){
+				// 	compound-card {
+				// 		content {
+				// 			single-line {
+				// 				text {
+				// 					value {
+				// 						template ("HIDDEN ABILITY: #{upper(pokemon.ability3)}")
+				// 					}
+				// 					style (Detail_L)
+				// 				}
+				// 			}
+				// 			paragraph {
+				// 				value {
+				// 					template ("[#{value(pokemon.ability3Description)}]")
+				// 				}
+				// 				style (Detail_L_Soft)
+				// 			}
+				// 		}
+				// 	}
+				// }
+				
+				// split-input-cell{
+				// 	left{
+				// 		input-cell{
+				// 			label{
+				// 				template ("Click Me")
+				// 			}
+				// 			value("Evolutions")
+				// 			on-click{
+				// 				intent{
+				// 					goal: GetEvolutions
+				// 					value: Pokemon{
+				// 						name:$expr(pokemon.name)
+				// 					}
+				// 				}
+				// 			}
+				// 		}
+				// 	}
+				// 	right{
+				// 		input-cell{
+				// 			label{
+				// 				template ("Click Me")
+				// 			}
+				// 			value("Type Chart")
+				// 			on-click{
+				// 				intent{
+				// 					goal: GetTypeChart
+				// 					value: Pokemon{
+				// 						name:$expr(pokemon.name)
+				// 					}
+				// 				}
+				// 			}
+				// 		}
+				// 	}
+				// }
+				
+			}
+		}
+	}
+}

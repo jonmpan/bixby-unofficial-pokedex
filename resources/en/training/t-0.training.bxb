@@ -1,0 +1,5 @@
+train (t-06qb6fxm3m5qf9u46tkbwe3no) {
+  utterance ("[g:FindPokemon] Show me a (guard a ver or)[v:PokemonSpeciesTest]")
+  plan (Y2BmEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQRBV2y8xLgUkpYNURXJCanJlaHJJaXMLAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1552953357602)
+}

@@ -1,0 +1,14 @@
+train (t-4abjdroe4fn822nvdspbzprnu) {
+  utterance ("[g:WhichPokemon] which pokemon looks like (bob marley the second)[v:PokemonSpeciesTest]")
+  plan (Y2BmEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQQhUOz8hMzoDJKWDVElyQmpyZWhySWlzCwMTACMQMQJKRAQSgfAA=)
+  last-modified (1553138553916)
+}
+train (t-4amk57ld0p3qtfqjep26fqsp0) {
+  utterance ("[g:WhichPokemon] what pokemon does (bill nye the science guy)[v:PokemonSpeciesTest] resemble?")
+  plan (Y2BmkC3ISaxML8ovzUvRKyjKTylNLsnMz9MLyM9Ozc3PY1DCLh2ekZmcAVOjgdeI4ILU5MzU4pDU4hIGJgZGIGYAkowMIADlAwA=)
+  last-modified (1566324561768)
+}
+train (t-4vm5iuffqmb2fvpuvj0oaw2f3) {
+  utterance ("[g:FetchStatsAction] (highest)[v:SearchPrefs:highest] (attack)[v:Stats:attack] pokemon")
+  last-modified (1552772186628)
+}

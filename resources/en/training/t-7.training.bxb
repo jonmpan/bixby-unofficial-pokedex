@@ -1,0 +1,10 @@
+train (t-7o6peg2tg59m48kpp2r16uxbg) {
+  utterance ("[g:WhichPokemon] what pokemon does (Jessica)[v:PokemonSpeciesTest] look like?")
+  plan (Y2BmEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQQhUOz8hMzoDJKWDVElyQmpyZWhySWlzCwMTACMQMQJKRAQSgfAA=)
+  last-modified (1552980891977)
+}
+train (t-7slokbym14wk87fqnm5e557jf) {
+  utterance ([g:FindRandomPokemon] Show me a random pokemon)
+  plan (Y2BiEC/ISaxML8ovzUvRyygpKdALyM9Ozc3PY1BEl3DLzEsJSsxLyc+FKWEEQgYoBpIA)
+  last-modified (1552316132720)
+}

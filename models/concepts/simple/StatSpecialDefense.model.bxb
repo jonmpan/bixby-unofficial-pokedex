@@ -1,0 +1,3 @@
+integer (StatSpecialDefense) {
+  description (__DESCRIPTION__)
+}

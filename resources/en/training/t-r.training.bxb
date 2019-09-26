@@ -1,0 +1,5 @@
+train (t-rmmkfa57t5zbbz0g9v6850qm8) {
+  utterance ("[g:WhichPokemon] which pokemon is (Geoffrey)[v:PokemonSpeciesTest]")
+  plan (Y2BmEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQQhUOz8hMzoDJKWDVElyQmpyZWhySWlzCwMTACMQMQJKRAQSgfAA=)
+  last-modified (1552973165345)
+}

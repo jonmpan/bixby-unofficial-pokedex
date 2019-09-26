@@ -1,0 +1,21 @@
+train (t-l69ofxaw14k6dbtklppip527q) {
+  utterance ([g:GetTutorial] help me)
+  plan (Y2BikCvISaxML8ovzUvRKyjKTylNLsnMz9MLKS3JL8pMzGFQxC7vnloCV8IIhAxQDCQB)
+  last-modified (1566257611407)
+}
+train (t-lnje574bq0stzizuthlydmotf) {
+  utterance ("[g:FindPokemon] Show me a (Bulbasaur)[v:PokemonSpeciesTest]")
+  plan (Y2BmEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQRBV2y8xLgUkpYNURXJCanJlaHJJaXMLAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1552721237340)
+}
+train (t-loy8s262wwxd1kizrlnwxro0w) {
+  utterance ([g:Next10:continue:PokemonResults] Next 10)
+  plan (Y2BikEnKrEiqTEmt0MsoKSnQC8jPTs3NzwtKLS7NKSlmEEGV9UutKDE0YGAEQgYoBpIA)
+  last-modified (1552956082273)
+}
+train (t-lt25ggra6of9og1gipwd61lgl) {
+  utterance ([g:GetEvolutions:continue:FindPokemon] Evolutions)
+  plan (Y2BikE/KrEiqTEmt0MsoKSnQC8jPTs3Nz3Mty88pLcnMzytmkEZV4J5agiTJCIQMUAwkAQ==)
+  enabled (false)
+  last-modified (1568139649268)
+}

@@ -1,0 +1,12 @@
+structure (PopularPokemon) {
+   property (name) {
+    type (Name)
+    min (Required)
+    max (One)
+  }
+   property (count) {
+    type (Count)
+    min (Required)
+    max (One)
+  }
+}

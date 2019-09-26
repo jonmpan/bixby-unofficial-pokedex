@@ -1,0 +1,14 @@
+structure (PokemonEvolutions) {
+  property (name) {
+    type (Name) min (Optional)
+  }
+  property (evolutions){
+    type(Evolution)
+    min (Optional) max (Many)
+  }
+  property (speech){
+    type(viv.core.Text)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+}

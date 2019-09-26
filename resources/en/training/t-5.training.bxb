@@ -1,0 +1,5 @@
+train (t-5jwmhiq2l1wvki99cv7em38yk) {
+  utterance ("[g:FindPokemon] Show me an (ekans)[v:PokemonSpeciesTest]")
+  plan (Y2BmEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQRBV2y8xLgUkpYNURXJCanJlaHJJaXMLAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1552772190622)
+}

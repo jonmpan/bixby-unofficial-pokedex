@@ -1,0 +1,26 @@
+dialog (Result) {
+  match: Pokemon (this)
+  template(""){
+    speech("#{title(this.name)}. [#{value(this.pokedexEntry)}]")
+  }
+  // template("BixbyDéx show you [#{title(this.name)}]")
+  // if (this.message == 1){
+  // template("A wild [#{title(this.name)}] appeared!")
+  // } else-if(this.message == 2) {
+  //   template("I found this [#{title(this.name)}] for you.")
+  // } else-if(this.message == 3) {
+  //   template("I caught this [#{title(this.name)}] for you.")
+  // } else-if(this.message == 4) {
+  //   template("I defenestrates this [#{title(this.name)}].")
+  // } else-if(this.message == 5) {
+  //   template("I petted this [#{title(this.name)}] for you.")
+  // } else-if(this.message == 6) {
+  //   template("I seismic tosses this [#{title(this.name)}] at you.")
+  // } else-if(this.message == 7) {
+  //   template("I sends out [#{title(this.name)}].")
+  // } else-if(this.message == 8) {
+  //   template("I sets [#{title(this.name)}] free 😭")
+  // } else-if(this.message == 9) {
+  //   template("[#{title(this.name)}]! I choose you!")
+  // }
+}

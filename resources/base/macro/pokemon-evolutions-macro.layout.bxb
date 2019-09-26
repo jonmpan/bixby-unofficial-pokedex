@@ -1,0 +1,138 @@
+layout-macro-def(pokemon-evolutions-macro) {
+	params {
+		param (this) {
+			type (PokemonEvolutions)
+			min (Required)
+			max (One)
+		}
+	}
+	
+	content {
+		
+		section{
+			content{
+				if(size(this.evolutions)>0){
+					for-each (this.evolutions) {
+						as (evolution)
+						{
+							hbox{
+								content{
+									vbox{
+										grow (3)
+										valign (Middle)
+										halign (Center)
+										content{
+											single-line{
+												image{
+													background-color (Transparent)
+													url("[#{value(evolution.nameSprite)}]")
+													style(Title_XXL)
+												}
+											}
+											single-line{
+												text{
+													style(Detail_M_Soft)
+													value("[#{title(evolution.name)}]")
+												}
+											}
+										}
+									}
+									vbox{
+										grow (1)
+										valign (Middle)
+										halign (Center)
+										content{
+											single-line{
+												image{
+													url(icons/evolution-arrow.png)
+													style(Title_S)
+												}
+											}
+											single-line{
+												text{
+													value(" ")
+													style(Detail_M_Soft)
+												}
+												spacer
+											}
+										}
+									}
+									vbox{
+										grow (3)
+										valign (Middle)
+										halign (Center)
+										content{
+											single-line{
+												image{
+													background-color (Transparent)
+													url("[#{value(evolution.evolvesToSprite)}]")
+													style(Title_XXL)
+												}
+											}
+											single-line{
+												text{
+													style(Detail_M_Soft)
+													value("[#{title(evolution.evolvesTo)}]")
+												}
+											}
+										}
+									}
+								}
+							}
+							paragraph{
+								value("[#{value(evolution.text)}]")
+								style(Detail_L)
+							}
+							divider
+							// compound-card{
+							//   content{
+							//     image-card {
+							//       aspect-ratio (21:9)
+							//       image-object-fit (Contain)
+							//       title-area {
+							//         halign (Start)
+							//         slot1 {
+							//           text {
+							//             value ("From: #{title(evolution.name)}")
+							//             style (Title_XS)
+							//           }
+							//         }
+							//       }
+							//       image-url ("[#{value(evolution.nameSprite)}]")
+							//     }
+							//     image-card {
+							//       aspect-ratio (21:9)
+							//       image-object-fit (Contain)
+							//       title-area {
+							//         halign (Start)
+							//         slot1 {
+							//           text {
+							//             value ("To: #{title(evolution.evolvesTo)}")
+							//             style (Title_XS)
+							//           }
+							//         }
+							//       }
+							//       image-url ("[#{value(evolution.evolvesToSprite)}]")
+							//     }
+							
+							//     paragraph{
+							//       value("[#{value(evolution.text)}]")
+							//       style (Detail_L)
+							//     }
+							//     divider
+							//   }
+							// }
+						}
+					}
+				}
+				else{
+					image{
+						url("/images/throwpikachu.gif")
+						object-fit (Contain)
+						aspect-ratio(16:9)
+					}
+				}
+			}
+		}
+	}
+}

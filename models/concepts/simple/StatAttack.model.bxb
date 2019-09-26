@@ -1,0 +1,3 @@
+integer (StatAttack) {
+  description (__DESCRIPTION__)
+}

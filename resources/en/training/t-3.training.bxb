@@ -1,0 +1,15 @@
+train (t-38cf4cv3oyn0ptjr7ou94wgmf) {
+  utterance ("[g:FindPokemon] Show me a (char is ard)[v:PokemonSpeciesTest]")
+  plan (Y2BmEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQRBV2y8xLgUkpYNURXJCanJlaHJJaXMLAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1552953319422)
+}
+train (t-3cujozw8rp5j48yp5tqk0mogk) {
+  utterance ("[g:FindPokemon] show me (charizard)[v:PokemonSpeciesTest]")
+  plan (Y2BmEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQRBV2y8xLgUkpYNURXJCanJlaHJJaXMLAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1552721152419)
+}
+train (t-3mkxe2319l2xjwgbv30g8tnvm) {
+  utterance ("[g:WhichPokemon] (bob marley)[v:PokemonSpeciesTest] looks like what pokemon?")
+  plan (Y2BmEM/Kz8stSMzTK8jPTk1JrdALANK5+XkMMugS4RmZyRkwWSUc2oILUpMzU4tDUotLGJgYGIGYAUgyMoAAlA8A)
+  last-modified (1566336269188)
+}

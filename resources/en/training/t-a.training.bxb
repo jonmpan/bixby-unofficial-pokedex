@@ -1,0 +1,5 @@
+train (t-a3yulghw0kpv247wuth8wm0wb) {
+  utterance ("[g:FetchStatsAction] (popular)[v:Stats:popularity] pokemon")
+  plan (Y2BhkMvKz8stSMzTK8jPTk1JrdALANK5+XlBqcWlOSXFDAro8m6pJckZwSWJJcWOySWZ+XkM0ugqglMTi5IzAopS04oZRDEkQToZmBkYGZiAJAOQBkEIYAKygGIA)
+  last-modified (1566333601104)
+}

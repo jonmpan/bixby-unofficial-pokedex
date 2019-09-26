@@ -1,0 +1,25 @@
+capsule-info {
+  display-name (The Unofficial Pokédex)
+  developer-name (jonmpan)
+  icon-asset (/images/new-logo-2.png)
+  website-url (www.jonmpan.com)
+  terms-url (www.jonmpan.com/terms)
+  privacy-policy-url (www.jonmpan.com/privacy)
+  description (Look up your favorite Pokémon with the Unofficial Pokédex! Find out what Pokémon you look like! The Unofficial Pokédex is based on Pokémon Sun & Moon and is a free, unofficial, fan made capsule. The Unofficial Pokédex has no affiliation and is not supported by GAME FREAK, Nintendo, or the Pokémon company. Some images used are copyrighted and supported under fair use. Pokémon and Pokémon character names are trademarks of Nintendo. No copyright infringement intended.)
+  search-keywords {
+    keyword (Pokemon)
+    keyword (Pokémon)
+    keyword (Pokedex)
+    keyword (Pokédex)
+    keyword (Pikachu)
+    keyword (Nintendo)
+  }
+  dispatch-name (The Unofficial Pokedex)
+  dispatch-aliases {
+    alias (Unofficial Pokedex)
+    alias (Unofficial Pokédex)
+    alias (The Unofficial Pokédex)
+  }
+  action-bg-color (#BF2519)
+  action-fg-color (#FFFFFF)
+}

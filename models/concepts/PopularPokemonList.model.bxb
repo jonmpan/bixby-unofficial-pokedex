@@ -1,0 +1,7 @@
+structure (PopularPokemonList) {
+   property (popularPokemons) {
+    type (PopularPokemon)
+    min (Required)
+    max (Many)
+  }
+}

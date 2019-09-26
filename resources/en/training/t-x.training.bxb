@@ -1,0 +1,5 @@
+train (t-x3iohcgev6dwbfoi8a78dq88r) {
+  utterance ([g:GetTypeChart:continue:Pokemon] type chart)
+  plan (Y2BmkMzKz8stSMzTK8jPTk1JrdALqSxIdc5ILCphkEGXck8tQciKo8sGAOnc/DwGJgZGIGYAkowMDDAaAA==)
+  last-modified (1568139693621)
+}

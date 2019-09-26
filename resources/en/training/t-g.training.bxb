@@ -1,0 +1,5 @@
+train (t-gtdfm1s5y4kxe6aezbh0uayvi) {
+  utterance ("[g:WhichPokemon] what pokemon does (king lous the fifth)[v:PokemonSpeciesTest] look like?")
+  plan (Y2BmEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQQhUOz8hMzoDJKWDVElyQmpyZWhySWlzCwMTACMQMQJKRAQSgfAA=)
+  last-modified (1553138963435)
+}

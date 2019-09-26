@@ -1,0 +1,16 @@
+action (FindPokemon) {
+  type (Search)
+  description (Demonstrate a simple pokemon GET with the http library.)
+  collect {
+    input (pokemonName) {
+      type (PokemonSpeciesTest)
+      min (Required) max (One)
+      default-select{
+        with-rule{
+          select-first
+        }
+      }
+    }
+  }
+  output (Pokemon)
+}

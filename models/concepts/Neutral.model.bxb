@@ -1,0 +1,11 @@
+structure (Neutral) {
+  description (__DESCRIPTION__)
+  property (multiplier) {
+    type (Multiplier)
+    min (Optional) max (One)
+  }
+  property (type) {
+    type (Type)
+    min (Optional) max (One)
+  }
+}

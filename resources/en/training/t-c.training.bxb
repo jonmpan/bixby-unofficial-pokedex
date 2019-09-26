@@ -1,0 +1,5 @@
+train (t-cta5615owbawaetlzb3hq4rzu) {
+  utterance ("[g:WhichPokemon] which pokemon does (Geoffrey)[v:PokemonSpeciesTest] resemble?")
+  plan (Y2BmEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQQhUOz8hMzoDJKWDVElyQmpyZWhySWlzCwMTACMQMQJKRAQSgfAA=)
+  last-modified (1552979988880)
+}

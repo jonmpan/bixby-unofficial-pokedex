@@ -1,0 +1,5 @@
+enum (SearchPrefs) {
+  description (search preference)
+  symbol (highest)
+  symbol(lowest)
+}

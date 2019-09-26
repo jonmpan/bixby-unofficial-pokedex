@@ -1,0 +1,10 @@
+train (t-jbxhm5twv1064by2fcvue0aya) {
+  utterance ([g:FindRandomPokemon] random pokemon)
+  plan (Y2BiEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQRxV2y8xLCUrMS8nPhSlgBEIGKAaSAA==)
+  last-modified (1552970515767)
+}
+train (t-jx78hwj0ws3yovzvn1krmls34) {
+  utterance ("[g:WhichPokemon] what pokemon looks like (george clooney roberto rodrigues)[v:PokemonSpeciesTest]?")
+  plan (Y2BmEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQQhUOz8hMzoDJKWDVElyQmpyZWhySWlzCwMTACMQMQJKRAQSgfAA=)
+  last-modified (1553203182176)
+}

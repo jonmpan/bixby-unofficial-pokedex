@@ -1,0 +1,6 @@
+dialog (Result) {
+  match: PokemonResults (this) {
+    from-output: Previous10 (action)
+  }
+  template("Here are the previous 10 Pokemon")
+}

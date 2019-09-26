@@ -1,0 +1,25 @@
+action (FetchStatsAction) {
+  type(Search)
+  description ("fetch pokemon stats data by preference")
+  collect {
+     input (pref) {
+      type (SearchPrefs)
+      min (Required) max (One)
+      default-select{
+        with-rule{
+          select-first
+        }
+      }
+      default-init{
+        intent{
+          goal:GetSearchPrefs
+        }
+      }
+    }
+    input (stat) {
+      type (Stats)
+      min (Required) max (One)
+    }
+  }
+  output (PokemonResults)
+}

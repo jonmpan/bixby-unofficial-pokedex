@@ -1,0 +1,20 @@
+capsule {
+  id (jonmpan.pokedex)
+  version (1.0.12)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  runtime-flags {
+    use-input-views-for-selection-list-detail
+    allow-dialogs-on-detail-pages
+    no-filtering-with-validation
+    modern-default-view-behavior
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+  }
+  store-sections {
+    section (GamesAndFun)
+  }
+}

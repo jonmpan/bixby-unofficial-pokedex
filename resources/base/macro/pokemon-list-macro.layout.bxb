@@ -1,0 +1,51 @@
+layout-macro-def(pokemon-list-macro) {
+  params {
+    param (pokemon) {
+      type (Pokemon)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+
+    image-card {
+      image-object-fit (Contain)
+      aspect-ratio (3:4)
+      title-area {
+        halign (Start)
+        slot1 {
+          text {
+            value ("[##{value(pokemon.rank)}. #{title(pokemon.name)}]")
+            style (Detail_L)
+          }
+        }
+        slot2 {
+          single-line {
+            text {
+              value ("[#{value(pokemon.subtitle)}]")
+              style (Detail_M_Soft)
+            }
+          }
+        }
+      }
+      image-url ("[#{value(pokemon.sprites[0].url)}]")
+    }
+
+    //  cell-card {
+    //  slot1 {
+    //      image {
+    //          url ("#{value(pokemon.sprites[0].url)}")
+    //          shape (Square)
+    //      }
+    //  }
+    //  slot2 {
+    //      content {
+    //          order (PrimarySecondary)
+    //          primary ("##{value(pokemon.rank)}. #{title(pokemon.name)}") // Fields of America for Fall
+    //          secondary ("Searched for #{value(pokemon.count)} times") // $39.99 - $59.99
+    //      }
+    //  }
+    // }
+  }
+}

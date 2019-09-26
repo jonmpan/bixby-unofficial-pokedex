@@ -1,0 +1,5 @@
+train (t-mrx1wd2rcx1elizhm1on2suz4) {
+  utterance ("[g:FindPokemon] Tell me about a (charmamder)[v:PokemonSpeciesTest]")
+  plan (Y2BmkC3ISaxML8ovzUvRKyjKTylNLsnMz9MLyM9Ozc3PY1DELu2WmZcCU6KB14TggtTkzNTikNTiEgYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1566252485806)
+}

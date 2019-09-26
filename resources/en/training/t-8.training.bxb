@@ -1,0 +1,5 @@
+train (t-8kteypuz0dr7rx03bwhs6lrux) {
+  utterance ([g:GetTutorial] tutorial)
+  plan (Y2BikCvISaxML8ovzUvRKyjKTylNLsnMz9MLKS3JL8pMzGFQxC7vnloCV8IIhAxQDCQB)
+  last-modified (1566257594222)
+}

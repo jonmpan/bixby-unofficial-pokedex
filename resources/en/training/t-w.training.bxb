@@ -1,0 +1,5 @@
+train (t-wiem7wb72mtjwqjhlid9l90k4) {
+  utterance ("[g:SingleWordFetchStats] I want to see the (strongest)[v:SingleWord:strongest] Pokémon in the world")
+  plan (Y2BmkCvOjS/Iz05NSa3QyygpKdALAHJy8/OCUotLc0qKGVTQ5YMz89JzUsPzi1LcUkuSM4JLEoGqpHCrYmBiYARiBiDJyAACUD4A)
+  last-modified (1559752233234)
+}

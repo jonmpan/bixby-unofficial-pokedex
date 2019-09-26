@@ -1,0 +1,22 @@
+result-view {
+	match {
+		Pokemon (this)
+	}
+	
+	render {
+		if(size(this)==1){
+			layout-macro (pokemon-details-macro) {
+				param (pokemon){expression (this)}
+			}
+		}
+	}
+	
+	conversation-drivers {
+		conversation-driver {
+			template ("Evolutions")
+		}
+		conversation-driver {
+			template ("Type Chart")
+		}
+	}
+}

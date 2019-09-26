@@ -1,0 +1,6 @@
+dialog (Progress) {
+  match: PokemonSpeciesTest (this) {
+    min (Optional) max (One)
+  }
+  template("Looking for [#{value(this)}]")
+}

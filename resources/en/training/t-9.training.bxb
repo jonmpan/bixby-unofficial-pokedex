@@ -1,0 +1,10 @@
+train (t-9h3v3c9tqpn2bo36ar6ie83lz) {
+  utterance ("[g:SingleWordFetchStats] show me the (strongest)[v:SingleWord:strongest] pokemon")
+  plan (Y2BmkEnKrEiqTEmt0MsoKSnQC8jPTs3NzwtKLS7NKSlmUEKVDc7MS89JDc8vSnFLLUnOCC5JBKqRwKWGgYmBEYgZgCQjAwhA+QA=)
+  last-modified (1552954769851)
+}
+train (t-9ofms8ce769o04lc269zovpu1) {
+  utterance ([g:GetTutorial] help)
+  plan (Y2BikCvISaxML8ovzUvRKyjKTylNLsnMz9MLKS3JL8pMzGFQxC7vnloCV8IIhAxQDCQB)
+  last-modified (1566257007248)
+}

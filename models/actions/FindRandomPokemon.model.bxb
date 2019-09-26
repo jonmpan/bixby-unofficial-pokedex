@@ -1,0 +1,4 @@
+action (FindRandomPokemon) {
+  type (Search)
+  output (Pokemon)
+}

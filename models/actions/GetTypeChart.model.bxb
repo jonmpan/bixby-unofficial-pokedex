@@ -1,0 +1,11 @@
+action (GetTypeChart) {
+  type (Search)
+  description (__DESCRIPTION__)
+  collect {
+    input (pokemon) {
+      type (Pokemon)
+      min (Required) max (One)
+    }
+  }
+  output (TypeChart)
+}

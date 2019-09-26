@@ -1,0 +1,7 @@
+structure (Sprites) {
+  description (Sprites Array)
+  property (sprite) {
+    type (Sprite)
+    min (Optional) max (Many)
+  }
+}

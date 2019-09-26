@@ -1,0 +1,10 @@
+action (GetEvolutions) {
+  type (Search)
+  collect {
+    input (pokemon) {
+      type (Pokemon)
+      min (Required)
+    }
+  }
+  output (PokemonEvolutions)
+}

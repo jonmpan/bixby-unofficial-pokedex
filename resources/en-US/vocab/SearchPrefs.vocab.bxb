@@ -1,0 +1,4 @@
+vocab(SearchPrefs) {
+  "highest" {"highest", "more", "most"}
+  "lowest" {"lowest", "less", "let's", "least"}
+}

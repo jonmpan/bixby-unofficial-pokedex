@@ -1,0 +1,5 @@
+train (t-k85nhpyz1zyjropl40mi9nd3i) {
+  utterance ("[g:FindPokemon] (Tapu koko)[v:PokemonSpeciesTest]")
+  plan (Y2BmEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQRBV2y8xLgUkpYNURXJCanJlaHJJaXMLAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1552775758276)
+}

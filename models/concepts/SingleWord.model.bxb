@@ -1,0 +1,16 @@
+enum (SingleWord) {
+  symbol (strongest)
+  symbol (weakest)
+  symbol (toughest)
+  symbol (wimpiest)
+  symbol (slowest)
+  symbol (fastest)
+  symbol (smartest)
+  symbol (dumbest)
+  symbol (cutest)
+  symbol (ugliest)
+  symbol (tallest)
+  symbol (shortest)
+  symbol (heaviest)
+  symbol (lightest)
+}

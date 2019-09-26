@@ -1,0 +1,5 @@
+train (t-t1rfxkplap8itugfx9ga7o6mp) {
+  utterance ("[g:FetchStatsAction] Pokemon with the (highest)[v:SearchPrefs:highest] (special attack)[v:Stats:special-attack]")
+  plan (Y2BhkEnKrEiqTEmt0MsoKSnQC8jPTs3NzwtKLS7NKSlmkEOVdUstSc4ILkksKXZMLsnMz2OQRJUPTk0sSs4IKEpNK2YQRpMC6WJgZmBkYAKSDEAaBCEALgoA)
+  last-modified (1553046662161)
+}

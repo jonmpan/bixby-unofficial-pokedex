@@ -1,0 +1,10 @@
+train (t-d899zejwg2az4u7fob46gcc59) {
+  utterance ("[g:FetchStatsAction] Show the Pokemon with the (most)[v:SearchPrefs:highest] (popularity)[v:Stats:popularity]")
+  plan (Y2BhkEnKrEiqTEmt0MsoKSnQC8jPTs3NzwtKLS7NKSlmkEOVdUstSc4ILkksKXZMLsnMz2OQRJUPTk0sSs4IKEpNK2YQRpMC6WJgZmBkYAKSDEAaBCEALgoA)
+  last-modified (1552867245021)
+}
+train (t-dvnawddnjjhwz9zkfgsxigiub) {
+  utterance ("[g:FindPokemon] (ray quaza)[v:PokemonSpeciesTest]")
+  plan (Y2BmEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQRBV2y8xLgUkpYNURXJCanJlaHJJaXMLAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1552721633969)
+}

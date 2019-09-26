@@ -1,0 +1,49 @@
+endpoints {
+
+  action-endpoints {
+
+    action-endpoint (FindPokemon) {
+      accepted-inputs (pokemonName, $vivContext)
+      local-endpoint (FindPokemon.js)
+    }
+    action-endpoint (WhichPokemon) {
+      accepted-inputs (pokemonName, $vivContext)
+      local-endpoint (WhichPokemon.js)
+    }
+    action-endpoint (GetEvolutions) {
+      accepted-inputs (pokemon, $vivContext)
+      local-endpoint (GetEvolutions.js)
+    }
+    action-endpoint (GetTypeChart) {
+      accepted-inputs (pokemon, $vivContext)
+      local-endpoint (GetTypeChart.js)
+    }
+    action-endpoint (FindRandomPokemon) {
+      accepted-inputs ($vivContext)
+      local-endpoint (FindRandomPokemon.js)
+    }
+    action-endpoint (FetchStatsAction) {
+      accepted-inputs (pref, stat, $vivContext)
+      local-endpoint (FetchStats.js)
+    }
+    action-endpoint (SingleWordFetchStats) {
+      accepted-inputs (singleWord, $vivContext)
+      local-endpoint (SingleWordFetchStats.js)
+    }
+    action-endpoint (GetTutorial) {
+      accepted-inputs (bixbydex, $vivContext)
+      local-endpoint (GetTutorial.js)
+    }
+    action-endpoint (Next10) {
+      accepted-inputs (pokemonResults, $vivContext)
+      local-endpoint (Next10.js)
+    }
+    action-endpoint (Previous10) {
+      accepted-inputs (pokemonResults, $vivContext)
+      local-endpoint (Previous10.js)
+    }
+    action-endpoint (GetSearchPrefs) {
+      local-endpoint (GetSearchPrefs.js)
+    }
+  }
+}

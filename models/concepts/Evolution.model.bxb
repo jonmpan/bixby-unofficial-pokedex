@@ -1,0 +1,26 @@
+structure (Evolution) {
+  property (name) {
+    type (Name)
+    min (Optional) max (One)
+  }
+  property (evolvesTo) {
+    type (EvolvesTo)
+    min (Optional) max (One)
+  }
+  property (text) {
+    type (Text)
+    min (Optional) max (One)
+  }
+  property (nameSprite){
+    type(Sprite)
+    min (Optional) max (One)
+  }
+  property (evolvesToSprite){
+    type(EvolvesToSprite)
+    min (Optional) max (One)
+  }
+  property (trigger){
+    type(Trigger)
+    min (Optional) max (One)
+  }
+}

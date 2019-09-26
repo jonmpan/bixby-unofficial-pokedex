@@ -1,0 +1,10 @@
+name (PokemonSpeciesTest) {
+  description (__DESCRIPTION__)
+  // equivalence{
+  //   fuzzy-string-equality {
+  //     true-tolerance (0.5)
+  //     uncertain-tolerance (0.3)
+  //     similarity-measure (EditToken)
+  //   }
+  // }
+}

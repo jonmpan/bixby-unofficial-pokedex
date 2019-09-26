@@ -1,0 +1,6 @@
+dialog (Result) {
+  match: TypeChart (this) {
+    from-output: GetTypeChart (action)
+  }
+  template("Here is the type chart for #{title(this.name)}.")
+}

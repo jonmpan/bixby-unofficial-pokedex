@@ -1,0 +1,10 @@
+train (t-bifg88da3pv8r97npsn493afr) {
+  utterance ([g:GetTutorial] Bixbydex)
+  plan (Y2BiEEvKrEiqTEmt0MsoKSnQCyktyS/KTMxhkEQVd08tgUsxAiEDFANJAA==)
+  last-modified (1552952106489)
+}
+train (t-bydqf3gkmz8r2lrj3zcf2h1c1) {
+  utterance ("[g:FindPokemon] (charmeleon)[v:PokemonSpeciesTest]")
+  plan (Y2BmEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQRBV2y8xLgUkpYNURXJCanJlaHJJaXMLAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1552721206854)
+}

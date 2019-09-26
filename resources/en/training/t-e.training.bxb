@@ -1,0 +1,10 @@
+train (t-e9ldmil6rm102tod08edn29z6) {
+  utterance ("[g:FindPokemon] (Bulb a sore)[v:PokemonSpeciesTest]")
+  plan (Y2BmEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQRBV2y8xLgUkpYNURXJCanJlaHJJaXMLAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1552775781831)
+}
+train (t-ejit2bl2b0n4ju7557896ql4k) {
+  utterance ("[g:FetchStatsAction] Pokemon with the (highest)[v:SearchPrefs:highest] (attack)[v:Stats:attack]")
+  plan (Y2BhkEnKrEiqTEmt0MsoKSnQC8jPTs3NzwtKLS7NKSlmkEOVdUstSc4ILkksKXZMLsnMz2OQRJUPTk0sSs4IKEpNK2YQRpMC6WJgZmBkYAKSDEAaBCEALgoA)
+  last-modified (1553046585458)
+}

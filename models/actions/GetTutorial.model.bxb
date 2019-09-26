@@ -1,0 +1,11 @@
+action (GetTutorial) {
+  description (__DESCRIPTION__)
+  type(Search)
+  collect {
+    input (bixbydex) {
+      type (Bixbydex)
+      min (Optional)
+    }
+  }
+  output (Tutorial)
+}

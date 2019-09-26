@@ -1,0 +1,3 @@
+text (PokedexEntry) {
+  description (__DESCRIPTION__)
+}

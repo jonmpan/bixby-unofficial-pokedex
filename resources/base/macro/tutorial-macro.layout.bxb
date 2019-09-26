@@ -1,0 +1,153 @@
+layout-macro-def(tutorial-macro) {
+  params {
+    param (this) {
+      type (Tutorial)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    section{
+      content{
+        image{
+          url(/images/pikachu.gif)
+          aspect-ratio(16:9)
+          object-fit (Cover)
+        }
+
+        cell-card {
+          on-click{
+            intent{
+              goal: FindPokemon
+              value: PokemonSpeciesTest(pikachu)
+            }
+          }
+          slot2 {
+            content {
+              order (PrimarySecondary)
+              primary ("#{value(this.tutorial1)}")
+            }
+          }
+        }
+        paragraph{
+          value{
+            template ("I can show you some stuff about Pokémon. \"Show me a Jigglypuff\" and \"Jigglypuff\" are both valid ways to ask me to show you a Jigglypuff.")
+          }
+          style (Detail_L_Soft)
+        }
+
+        cell-card {
+          on-click{
+            intent{
+              goal: WhichPokemon
+              value: PokemonSpeciesTest(Ranold McDernald)
+            }
+          }
+          slot2 {
+            content {
+              order (PrimarySecondary)
+              primary ("\"Which Pokemon looks like...")
+              secondary ("Ranold McDernald\"")
+            }
+          }
+        }
+        paragraph{
+          value{
+            template ("You can ask me to compare people to Pokémon! Try asking me \"Which Pokémon does Bob Marley look like?\" or \"Which Pokemon does Rebecca Black look like?\". You might be shocked to find out which Pokémon they resemble!")
+          }
+          style (Detail_L_Soft)
+        }
+
+        cell-card {
+          on-click{
+            intent{
+              goal: SingleWordFetchStats
+              value: SingleWord(cutest)
+            }
+          }
+          slot2 {
+            content {
+              order (PrimarySecondary)
+              primary ("#{value(this.tutorial3)}")
+            }
+          }
+        }
+        paragraph{
+          value{
+            template ("You can ask me to sort Pokemon based on certain attributes. For example, \"Show me the Pokemon with the highest attack\". You can sort Pokémon by hit points, attack, defense, special attack, special defense, speed, total stats, height, weight, and popularity.")
+          }
+          style (Detail_L_Soft)
+        }
+
+        cell-card {
+          on-click{
+            intent{
+              goal: SingleWordFetchStats
+              value: SingleWord(strongest)
+            }
+          }
+          slot2 {
+            content {
+              order (PrimarySecondary)
+              primary ("#{value(this.tutorial4)}")
+            }
+          }
+        }
+        paragraph{
+          value{
+            template ("Here's an example for of when you're looking for the Pokémon with the highest total stats.")
+          }
+          style (Detail_L_Soft)
+        }
+
+        cell-card {
+          on-click{
+            intent{
+              goal: FindRandomPokemon
+            }
+          }
+          slot2 {
+            content {
+              order (PrimarySecondary)
+              primary ("#{value(this.tutorial2)}")
+            }
+          }
+        }
+        paragraph{
+          value{
+            template ("Not sure what to ask me to show you? Have no fear, just ask me for a random Pokémon!")
+          }
+          style (Detail_L_Soft)
+        }
+
+        paragraph{
+          value{
+            template ("I am here for 0.1% of your Pokémon needs! Some Pokémon are a little harder for me to catch. Try getting me to show you a Gardevoir with just your voice. You may find it amusingly challenging 🙃 or begrudgingly frustrating 😡")
+          }
+          style (Detail_L)
+        }
+
+        paragraph{
+          value{
+            template ("We know that was a lot to take in. Hopefully you don't feel as overwhelmed as this Pikachu. Good luck and have fun!")
+          }
+          style (Detail_L)
+        }
+        image{
+          url(/images/pikachu2.gif)
+          aspect-ratio(16:9)
+          object-fit (Cover)
+        }
+
+        paragraph{
+          value{
+            template ("The Unofficial Pokedex is based on Pokémon Sun & Moon and is a free, unofficial, fan made capsule. The Unofficial Pokédex has no affiliation and is not supported by GAME FREAK, Nintendo, or the Pokémon company. Some images used are copyrighted and supported under fair use. Pokémon and Pokémon character names are trademarks of Nintendo. No copyright infringement intended. ©2002-2019 Pokémon. ©1995-2019 Nintendo/Creatures Inc/GAME FREAK inc.")
+          }
+          style (Detail_M_Soft)
+        }
+
+      }
+    }
+  }
+}

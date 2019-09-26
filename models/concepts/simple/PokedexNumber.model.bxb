@@ -1,0 +1,3 @@
+integer (PokedexNumber) {
+  description (__DESCRIPTION__)
+}

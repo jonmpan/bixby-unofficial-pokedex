@@ -1,0 +1,4 @@
+dialog (NoResult) {
+  match: Pokemon
+  template("You can ask me to tell you about a specific Pokemon.")
+}

@@ -1,0 +1,19 @@
+structure (TypeChart) {
+  description (__DESCRIPTION__)
+  property (resistances) {
+    type (Resistances)
+    min (Optional) max (Many)
+  }
+  property (neutral) {
+    type (Neutral)
+    min (Optional) max (Many)
+  }
+  property (weaknesses) {
+    type (Weaknesses)
+    min (Optional) max (Many)
+  }
+  property (name) {
+    type (Name)
+    min (Optional) max (One)
+  }
+}

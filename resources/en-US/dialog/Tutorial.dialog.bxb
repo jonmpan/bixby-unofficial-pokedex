@@ -1,0 +1,7 @@
+dialog (Result) {
+  match: Tutorial (this) {
+    from-output: GetTutorial (action)
+  }
+  // template("Bixby-dex show you [#{title(this.name)}]")
+  template("I know roughly 0.1% of all things Pokemon related. Try out one of the following commands.")
+}

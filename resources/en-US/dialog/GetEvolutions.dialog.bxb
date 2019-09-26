@@ -1,0 +1,14 @@
+dialog (Result) {
+  match: PokemonEvolutions (this) {
+    from-output: GetEvolutions (action)
+  }
+  if(size(this.evolutions)>0){
+    template("Here is the evolution chain of #{title(this.name)}"){
+      // speech ("[<speak><lang xml:lang=\"en-GB\" voice=\"Chris\">#{value(this.speech)}</lang></speak>]")
+      speech ("[#{value(this.speech)}]")
+
+    }
+  } else {
+    template("#{title(this.name)} has no evolutions.")
+  }
+}

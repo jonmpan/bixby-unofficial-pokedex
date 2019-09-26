@@ -1,0 +1,126 @@
+structure (Pokemon) {
+  // features {
+  //   profile-stored { max (One) }
+  // }
+  property (name) {
+    type (Name)
+    min (Optional)
+  }
+  property (count){
+    type (Count)
+    min (Optional)
+  }
+  property (rank){
+    type (Rank)
+    min (Optional)
+  }
+  property (url) {
+    type (Url)
+    min (Optional)
+  }
+  property (sprite) {
+    type (Sprite)
+    min (Optional)
+  }
+  property (sprites) {
+    type (SpriteImage)
+    min (Optional) max (Many)
+  }
+  property (id){
+    type(Id)
+    min (Optional)
+  }
+  property (species) {
+    type (Species)
+    min (Optional)
+  }
+  property (height){
+    type(Height)
+    min (Optional)
+  }
+  property (weight){
+    type(Weight)
+    min (Optional)
+  }
+  property (pokedexEntry){
+    type(PokedexEntry)
+    min (Optional)
+  }
+  property (type1){
+    type(Type1)
+    min (Optional)
+  }
+  property (type2){
+    type(Type2)
+    min (Optional)
+  }
+  property (statHp){
+    type(StatHp)
+    min (Optional)
+  }
+  property (statAttack){
+    type(StatAttack)
+    min (Optional)
+  }
+  property (statDefense){
+    type(StatDefense)
+    min (Optional)
+  }
+  property (statSpecialAttack){
+    type(StatSpecialAttack)
+    min (Optional)
+  }
+  property (statSpecialDefense){
+    type(StatSpecialDefense)
+    min (Optional)
+  }
+  property (statSpeed){
+    type(StatSpeed)
+    min (Optional)
+  }
+  property (statTotal){
+    type(StatTotal)
+    min (Optional)
+  }
+  property (ability1){
+    type(Ability1)
+    min (Optional)
+  }
+  property (ability1Description){
+    type(Ability1Description)
+    min (Optional)
+  }
+  property (ability2){
+    type(Ability2)
+    min (Optional)
+  }
+  property (ability2Description){
+    type(Ability2Description)
+    min (Optional)
+  }      
+  property (ability3){
+    type(Ability3)
+    min (Optional)
+  }
+  property (ability3Description){
+    type(Ability3Description)
+    min (Optional)
+  }
+  property (message){
+    type(Message)
+    min (Optional)
+  }
+  property (pokedexNumber){
+    type(PokedexNumber)
+    min (Optional)
+  }
+  property (subtitle) {
+    type (Subtitle)
+    min (Optional)
+  }
+  property (searchedFor) {
+    type (SearchedFor)
+    min (Optional)
+  }
+}
+

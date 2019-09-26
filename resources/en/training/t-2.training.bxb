@@ -1,0 +1,25 @@
+train (t-2eyo2jqslc2vvm9a28f6q15xw) {
+  utterance ("[g:WhichPokemon] what pokemon does (George Washington)[v:PokemonSpeciesTest] look like?")
+  plan (Y2BmEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQQhUOz8hMzoDJKWDVElyQmpyZWhySWlzCwMTACMQMQJKRAQSgfAA=)
+  last-modified (1552980920290)
+}
+train (t-2kk34c1hrvp0b58oty1uw6erk) {
+  utterance ("[g:WhichPokemon] which pokemon does (Jonathan Pan)[v:PokemonSpeciesTest] resemble?")
+  plan (Y2BmEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQQhUOz8hMzoDJKWDVElyQmpyZWhySWlzCwMTACMQMQJKRAQSgfAA=)
+  last-modified (1552980011081)
+}
+train (t-2ol1su2op2rvj9cxh1or95oh2) {
+  utterance ([g:GetEvolutions:continue:Pokemon] evolution chain)
+  plan (Y2BikE/KrEiqTEmt0MsoKSnQC8jPTs3Nz3Mty88pLcnMzytmkEZV4J5agiTJCIQMUAwkAQ==)
+  last-modified (1552981253947)
+}
+train (t-2pp1aby5bcrfkmvm3qhi8nl18) {
+  utterance ("[g:WhichPokemon] (jonathan)[v:PokemonSpeciesTest] looks like which pokemon?")
+  plan (Y2BmEM/Kz8stSMzTK8jPTk1JrdALANK5+XkMMugS4RmZyRkwWSUc2oILUpMzU4tDUotLGJgYGIGYAUgyMoAAlA8A)
+  last-modified (1566336212954)
+}
+train (t-2qykbjpcnnxsxxfplfde67vm7) {
+  utterance ("[g:SingleWordFetchStats] (strongest)[v:SingleWord:strongest] pokemon")
+  plan (Y2BmkEnKrEiqTEmt0MsoKSnQC8jPTs3NzwtKLS7NKSlmUEKVDc7MS89JDc8vSnFLLUnOCC5JBKqRwKWGgYmBEYgZgCQjAwhA+QA=)
+  last-modified (1552954004191)
+}

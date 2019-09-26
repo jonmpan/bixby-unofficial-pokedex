@@ -1,0 +1,5 @@
+train (t-isy25g513iuy41o1m8g4av6nq) {
+  utterance ("[g:WhichPokemon] what pokemon does (neil patrick harris)[v:PokemonSpeciesTest] look like?")
+  plan (Y2BmEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQQhUOz8hMzoDJKWDVElyQmpyZWhySWlzCwMTACMQMQJKRAQSgfAA=)
+  last-modified (1552980950596)
+}

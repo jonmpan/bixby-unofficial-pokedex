@@ -1,0 +1,5 @@
+train (t-syz0g1rzaolx81g0221bxls7r) {
+  utterance ("[g:FindPokemon] (tapu-lele)[v:PokemonSpeciesTest]")
+  plan (Y2BmEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQRBV2y8xLgUkpYNURXJCanJlaHJJaXMLAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1552772475312)
+}

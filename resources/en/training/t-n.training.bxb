@@ -1,0 +1,10 @@
+train (t-n1av1ffvc3c5nf3ajzi7pf18j) {
+  utterance ("[g:WhichPokemon] which pokemon does (bob marley the second)[v:PokemonSpeciesTest] resemble")
+  plan (Y2BmEE3KrEiqTEmt0MsoKSnQC8jPTs3Nz2OQQhUOz8hMzoDJKWDVElyQmpyZWhySWlzCwMTACMQMQJKRAQSgfAA=)
+  last-modified (1553138843880)
+}
+train (t-nuf1o71r8a4tuqrpf9naz5l9i) {
+  utterance ([g:GetEvolutions:continue:FindPokemon] More Information)
+  plan (Y2BiUCzISaxML8ovzUvRyygpKdALyM9Ozc3Pcy3LzyktyczPK2aQRVfinlqCJM0IhAxQDCQB)
+  last-modified (1552709056891)
+}

@@ -1,0 +1,5 @@
+train (t-1y60e8qh8ke5ppz14xz6mtbme) {
+  utterance ("[g:FetchStatsAction] Show me the Pokemon with the (least)[v:SearchPrefs:lowest] (special attack)[v:Stats:special-attack]")
+  plan (Y2BhkEnKrEiqTEmt0MsoKSnQC8jPTs3NzwtKLS7NKSlmkEOVdUstSc4ILkksKXZMLsnMz2OQRJUPTk0sSs4IKEpNK2YQRpMC6WJgZmBkYAKSDEAaBCEALgoA)
+  last-modified (1552867964351)
+}

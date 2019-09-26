@@ -1,0 +1,4 @@
+dialog (Progress) {
+  match: PokemonResults
+  template("Finding your Pokémon...")
+}
